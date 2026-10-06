@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 484" width="520" height="484">
+<style>
+.t{font-family:"Courier New",monospace;font-size:13px;opacity:0}
+.l0{animation:fi .06s 0.000s forwards}
+.l1{animation:fi .06s 0.105s forwards}
+.l2{animation:fi .06s 0.211s forwards}
+.l3{animation:fi .06s 0.316s forwards}
+.l4{animation:fi .06s 0.421s forwards}
+.l5{animation:fi .06s 0.526s forwards}
+.l6{animation:fi .06s 0.632s forwards}
+.l7{animation:fi .06s 0.737s forwards}
+.l8{animation:fi .06s 0.842s forwards}
+.l9{animation:fi .06s 0.947s forwards}
+.l10{animation:fi .06s 1.053s forwards}
+.l11{animation:fi .06s 1.158s forwards}
+.l12{animation:fi .06s 1.263s forwards}
+.l13{animation:fi .06s 1.368s forwards}
+.l14{animation:fi .06s 1.474s forwards}
+.l15{animation:fi .06s 1.579s forwards}
+.l16{animation:fi .06s 1.684s forwards}
+.l17{animation:fi .06s 1.789s forwards}
+.l18{animation:fi .06s 1.895s forwards}
+@keyframes fi{to{opacity:1}}
+</style>
+<rect width="520" height="484" fill="#FFFFFF" rx="8"/>
+<rect width="520" height="34" fill="#F6F8FA" rx="8"/>
+<rect y="26" width="520" height="8" fill="#F6F8FA"/>
+<circle cx="18" cy="17" r="5" fill="#FF5F57"/>
+<circle cx="38" cy="17" r="5" fill="#FFBD2E"/>
+<circle cx="58" cy="17" r="5" fill="#27C93F"/>
+<text x="260" y="21" text-anchor="middle" font-family="Courier New,monospace" font-size="11" fill="#6B7280" opacity="0.7">pranjal@github ~ $ neofetch</text>
+<text x="24" y="62" class="t l0" fill="#7C3AED" font-weight="bold">pranjal240@github</text>
+<text x="24" y="82" class="t l1" fill="#D1D5DB">──────────────────────────────</text>
+<text y="102" class="t l2"><tspan x="24" fill="#0891B2">Name:</tspan><tspan x="159" fill="#374151">Pranjal Mishra</tspan></text>
+<text y="122" class="t l3"><tspan x="24" fill="#0891B2">Role:</tspan><tspan x="159" fill="#374151">Full-Stack Dev | IoT Enthusiast</tspan></text>
+<text y="142" class="t l4"><tspan x="24" fill="#0891B2">Origin:</tspan><tspan x="159" fill="#374151">India</tspan></text>
+<text y="162" class="t l5"><tspan x="24" fill="#0891B2">Education:</tspan><tspan x="159" fill="#374151">ECE Student</tspan></text>
+<text y="182" class="t l6"><tspan x="24" fill="#0891B2">Status:</tspan><tspan x="159" fill="#374151">Building &amp; Innovating</tspan></text>
+<text x="24" y="202" class="t l7" fill="#D1D5DB">──────────────────────────────</text>
+<text y="222" class="t l8"><tspan x="24" fill="#0891B2">Languages:</tspan><tspan x="159" fill="#374151">C++ · JS · TS · Python · PHP</tspan></text>
+<text y="242" class="t l9"><tspan x="24" fill="#0891B2">Frontend:</tspan><tspan x="159" fill="#374151">React · Angular · Next.js</tspan></text>
+<text y="262" class="t l10"><tspan x="24" fill="#0891B2">Backend:</tspan><tspan x="159" fill="#374151">Node.js · Express · FastAPI</tspan></text>
+<text y="282" class="t l11"><tspan x="24" fill="#0891B2">Database:</tspan><tspan x="159" fill="#374151">MongoDB · Firebase</tspan></text>
+<text y="302" class="t l12"><tspan x="24" fill="#0891B2">Cloud:</tspan><tspan x="159" fill="#374151">AWS · Azure · GCP · Vercel</tspan></text>
+<text y="322" class="t l13"><tspan x="24" fill="#0891B2">AI/ML:</tspan><tspan x="159" fill="#374151">TensorFlow</tspan></text>
+<text x="24" y="342" class="t l14" fill="#D1D5DB">──────────────────────────────</text>
+<text y="362" class="t l15"><tspan x="24" fill="#0891B2">Email:</tspan><tspan x="159" fill="#374151">pranjalwork2602@gmail.com</tspan></text>
+<text y="382" class="t l16"><tspan x="24" fill="#0891B2">LinkedIn:</tspan><tspan x="159" fill="#374151">pranjal-mishra-3a7256291</tspan></text>
+<text y="402" class="t l17"><tspan x="24" fill="#0891B2">Instagram:</tspan><tspan x="159" fill="#374151">pranjal.__.mishra</tspan></text>
+<rect x="24" y="420" width="20" height="20" rx="3" fill="#A78BFA" class="t l18"/>
+<rect x="52" y="420" width="20" height="20" rx="3" fill="#7C3AED" class="t l18"/>
+<rect x="80" y="420" width="20" height="20" rx="3" fill="#22D3EE" class="t l18"/>
+<rect x="108" y="420" width="20" height="20" rx="3" fill="#0891B2" class="t l18"/>
+<rect x="136" y="420" width="20" height="20" rx="3" fill="#10B981" class="t l18"/>
+<rect x="164" y="420" width="20" height="20" rx="3" fill="#059669" class="t l18"/>
+<rect x="192" y="420" width="20" height="20" rx="3" fill="#F97316" class="t l18"/>
+<rect x="220" y="420" width="20" height="20" rx="3" fill="#EF4444" class="t l18"/>
+</svg>

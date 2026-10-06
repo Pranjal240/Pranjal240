@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 373" width="412" height="373">
+<style>
+.r{font-family:"Courier New",monospace;font-size:8px;fill:#5B21B6;opacity:0;white-space:pre}
+.r0{animation:a .04s 0.000s forwards}
+.r1{animation:a .04s 0.076s forwards}
+.r2{animation:a .04s 0.152s forwards}
+.r3{animation:a .04s 0.227s forwards}
+.r4{animation:a .04s 0.303s forwards}
+.r5{animation:a .04s 0.379s forwards}
+.r6{animation:a .04s 0.455s forwards}
+.r7{animation:a .04s 0.530s forwards}
+.r8{animation:a .04s 0.606s forwards}
+.r9{animation:a .04s 0.682s forwards}
+.r10{animation:a .04s 0.758s forwards}
+.r11{animation:a .04s 0.833s forwards}
+.r12{animation:a .04s 0.909s forwards}
+.r13{animation:a .04s 0.985s forwards}
+.r14{animation:a .04s 1.061s forwards}
+.r15{animation:a .04s 1.136s forwards}
+.r16{animation:a .04s 1.212s forwards}
+.r17{animation:a .04s 1.288s forwards}
+.r18{animation:a .04s 1.364s forwards}
+.r19{animation:a .04s 1.439s forwards}
+.r20{animation:a .04s 1.515s forwards}
+.r21{animation:a .04s 1.591s forwards}
+.r22{animation:a .04s 1.667s forwards}
+.r23{animation:a .04s 1.742s forwards}
+.r24{animation:a .04s 1.818s forwards}
+.r25{animation:a .04s 1.894s forwards}
+.r26{animation:a .04s 1.970s forwards}
+.r27{animation:a .04s 2.045s forwards}
+.r28{animation:a .04s 2.121s forwards}
+.r29{animation:a .04s 2.197s forwards}
+.r30{animation:a .04s 2.273s forwards}
+.r31{animation:a .04s 2.348s forwards}
+.r32{animation:a .04s 2.424s forwards}
+@keyframes a{to{opacity:1}}
+.cur{fill:#0891B2;opacity:0;animation:bk 1s step-end infinite 2.6s}
+@keyframes bk{0%,100%{opacity:1}50%{opacity:0}}
+</style>
+<rect width="100%" height="100%" fill="#F8FAFC" rx="8"/>
+<rect width="412" height="34" fill="#F0F0F0" rx="8"/>
+<rect y="26" width="412" height="8" fill="#F0F0F0"/>
+<circle cx="18" cy="17" r="5" fill="#FF5F57"/>
+<circle cx="38" cy="17" r="5" fill="#FFBD2E"/>
+<circle cx="58" cy="17" r="5" fill="#27C93F"/>
+<text x="206" y="21" text-anchor="middle" font-family="Courier New,monospace" font-size="11" fill="#6B7280" opacity="0.7">portrait.txt</text>
+<text x="14" y="65.0" class="r r0" xml:space="preserve">==--:            :-------                                                       </text>
+<text x="14" y="74.0" class="r r1" xml:space="preserve">***+++==-   :------==---:                                                       </text>
+<text x="14" y="83.0" class="r r2" xml:space="preserve">++++++==-------                                                                 </text>
+<text x="14" y="92.0" class="r r3" xml:space="preserve">                                                                                </text>
+<text x="14" y="101.0" class="r r4" xml:space="preserve">                                                                                </text>
+<text x="14" y="110.0" class="r r5" xml:space="preserve">                                                                                </text>
+<text x="14" y="119.0" class="r r6" xml:space="preserve">                                                :---------------------:         </text>
+<text x="14" y="128.0" class="r r7" xml:space="preserve">             : :                              :-----------===--------:          </text>
+<text x="14" y="137.0" class="r r8" xml:space="preserve">                                             :----------------                  </text>
+<text x="14" y="146.0" class="r r9" xml:space="preserve">                                                                                </text>
+<text x="14" y="155.0" class="r r10" xml:space="preserve">                                                                                </text>
+<text x="14" y="164.0" class="r r11" xml:space="preserve">                                                                                </text>
+<text x="14" y="173.0" class="r r12" xml:space="preserve">                     =+*##*####*++=-                                            </text>
+<text x="14" y="182.0" class="r r13" xml:space="preserve">                    +*#%%%%%%%%%##*++=-                                         </text>
+<text x="14" y="191.0" class="r r14" xml:space="preserve">                   -#%%@@@@%#%%%%##%%#*=                                        </text>
+<text x="14" y="200.0" class="r r15" xml:space="preserve">                   *%%%%@%%*=*%%%**#%@%+                                        </text>
+<text x="14" y="209.0" class="r r16" xml:space="preserve">                   %@%#%@%%*  *%#+- *##+                      :----:     ---    </text>
+<text x="14" y="218.0" class="r r17" xml:space="preserve">-::--::       --   +@@*==+==        -***             ::       ----          ----</text>
+<text x="14" y="227.0" class="r r18" xml:space="preserve">            --:     *%*    +**+-    -+#=                   ---------      ----  </text>
+<text x="14" y="236.0" class="r r19" xml:space="preserve">                     -== -+*++===: -#@*          :::-::-----:   :-==-   ::  --  </text>
+<text x="14" y="245.0" class="r r20" xml:space="preserve">                       =++*===--=**+#@-         :-- -----:              -       </text>
+<text x="14" y="254.0" class="r r21" xml:space="preserve">       ::----:         -+#%%%%%%%#*:=#+         --  :--:               -==-===--</text>
+<text x="14" y="263.0" class="r r22" xml:space="preserve"> :---     :-----     :==#**#%%##*=-----=                        --      --:     </text>
+<text x="14" y="272.0" class="r r23" xml:space="preserve">:-----              +=+ %%*****++=+#* ---+-                :  :-:       -:      </text>
+<text x="14" y="281.0" class="r r24" xml:space="preserve">:--::         ------*-*:#+==+++++==*# +-+#=--           :           ----        </text>
+<text x="14" y="290.0" class="r r25" xml:space="preserve">           -=+=+*-:-*=*-#-        -**-*:+*-:++==-               -----     -:    </text>
+<text x="14" y="299.0" class="r r26" xml:space="preserve">        -+#**+#%+-= #+*-#==       **++*:+#  +#*#*+=-             ---      --:   </text>
+<text x="14" y="308.0" class="r r27" xml:space="preserve">       -*###*#%% =+ ***=#-%-     =#*=*+:=#  -##%%*#*+           :--:    -----   </text>
+<text x="14" y="317.0" class="r r28" xml:space="preserve">      -+*#%#**#+ +* +**=#=%-     **#-#=--#= -**%%*%*+=          :--:  :---:     </text>
+<text x="14" y="326.0" class="r r29" xml:space="preserve">      ++#%%#*+=- ++:=#*=#=#-     **+=#--=+* -+*%%#%***:                         </text>
+<text x="14" y="335.0" class="r r30" xml:space="preserve">     -**#%%%%##= +==-#+=#=+     :**-#+--==* -++#%##*#*-                         </text>
+<text x="14" y="344.0" class="r r31" xml:space="preserve">     =###%%####=-+-= *+=#=      -*++#==-= *:-=*++*%%%#-:                        </text>
+<text x="14" y="353.0" class="r r32" xml:space="preserve">    -+#%%%%#**#= *-+:*+=#-      =**#=-+-= *---++++%@@*-=                        </text>
+<rect x="14" y="359.0" width="5.8" height="2" class="cur" rx="1"/>
+</svg>

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Crop profile photo, enhance contrast, convert to animated ASCII portrait SVG."""
+"""Convert background-removed profile photo to animated ASCII portrait SVGs."""
 from pathlib import Path
 import html as H
 import numpy as np
-from PIL import Image, ImageEnhance
+from PIL import Image
 import cv2
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -11,56 +11,50 @@ RAMP = " .:-=+*#%@"
 
 
 def prep_photo():
-    img = Image.open(ROOT / "assets" / "profile.jpg")
-    w, h = img.size
-    # tight crop: head + upper shoulders, less sky
-    cropped = img.crop((int(w * 0.24), int(h * 0.025), int(w * 0.76), int(h * 0.36)))
-    gray = cropped.convert("L")
-    arr = np.array(gray)
+    img = Image.open(ROOT / "assets" / "profile-nobg.webp").convert("RGBA")
+    r, g, b, a = img.split()
+    gray = np.array(img.convert("L"))
+    alpha = np.array(a)
 
-    # bilateral filter: smooths background while preserving edges
-    smoothed = cv2.bilateralFilter(arr, 11, 80, 80)
-
-    # CLAHE for local contrast on smoothed image
+    # CLAHE for better internal detail on the subject
     clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
-    enhanced = clahe.apply(smoothed)
+    detail = clahe.apply(gray)
 
-    result = Image.fromarray(enhanced)
-    result = ImageEnhance.Contrast(result).enhance(1.3)
+    # transparent/white background → white (255), keep subject detail
+    result = np.where(alpha > 128, detail, 255).astype(np.uint8)
 
     out = ROOT / "assets" / "prepped.png"
-    result.save(out)
-    print(f"Prepped: {out} ({result.size[0]}x{result.size[1]})")
+    Image.fromarray(result).save(out)
+    print(f"Prepped: {out} ({result.shape[1]}x{result.shape[0]})")
     return out
 
 
-def to_ascii(img_path, cols=80, bg_thresh=175):
+def to_ascii(img_path, cols=70):
     img = Image.open(img_path).convert("L")
     w, h = img.size
     cw = w / cols
     rows = int(h / (cw * 2.0))
-    small = img.resize((cols, rows))
-    px = np.array(small).flatten().tolist()
+    small = np.array(img.resize((cols, rows)))
 
     lines = []
     for r in range(rows):
         row = ""
         for c in range(cols):
-            v = px[r * cols + c]
-            if v > bg_thresh:
+            v = int(small[r, c])
+            if v > 220:
                 row += " "
             else:
                 idx = int((255 - v) / 255 * (len(RAMP) - 1))
                 row += RAMP[max(0, min(len(RAMP) - 1, idx))]
         lines.append(row)
 
-    # clean up: rows with >85% space become fully blank
+    # rows >85% spaces → fully blank
     cleaned = []
     for line in lines:
-        space_pct = line.count(" ") / len(line) if line else 1
-        cleaned.append(" " * len(line) if space_pct > 0.85 else line)
+        pct = line.count(" ") / len(line) if line else 1
+        cleaned.append(" " * len(line) if pct > 0.85 else line)
 
-    # trim blank rows from top/bottom
+    # trim blank rows top/bottom
     while cleaned and cleaned[0].strip() == "":
         cleaned.pop(0)
     while cleaned and cleaned[-1].strip() == "":
@@ -70,9 +64,9 @@ def to_ascii(img_path, cols=80, bg_thresh=175):
 
 
 def render_svg(lines, bg, chrome_bg, fg, cursor_clr, label_clr, filename):
-    fs = 8
-    cw, ch = 4.8, 9.0
-    pad = 14
+    fs = 7
+    cw, ch = 4.2, 8.0
+    pad = 12
     chrome_h = 34
     ncols = max(len(l) for l in lines)
     nrows = len(lines)

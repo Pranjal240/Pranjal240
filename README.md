@@ -3,7 +3,7 @@
 
 <!-- Typing welcome -->
 <a href="https://github.com/Pranjal240">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&random=false&width=600&lines=%24+ssh+pranjal240%40github.io;Connecting...;Welcome+to+Pranjal's+Terminal;Full-Stack+Developer+%7C+IoT+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&random=false&width=700&lines=%24+ssh+pranjal240%40github.io;Connecting...;Welcome+to+Pranjal's+Terminal;Software+Engineer" alt="Typing SVG" />
 </a>
 
 <br/>

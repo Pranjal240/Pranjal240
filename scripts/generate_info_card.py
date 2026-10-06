@@ -11,7 +11,7 @@ SEP = "─" * 30
 ITEMS = [
     ("sep",),
     ("Name", "Pranjal Mishra"),
-    ("Role", "Full-Stack Dev | IoT Enthusiast"),
+    ("Role", "Software Engineer"),
     ("Origin", "India"),
     ("Education", "ECE Student"),
     ("Status", "Building & Innovating"),

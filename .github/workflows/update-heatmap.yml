@@ -1,0 +1,32 @@
+name: Update Contribution Heatmap
+
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Generate heatmap
+        run: python scripts/generate_heatmap.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add contrib-heatmap-dark.svg contrib-heatmap-light.svg data/
+          git diff --cached --quiet || git commit -m "Update contribution heatmap [skip ci]"
+          git push

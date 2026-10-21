@@ -392,5 +392,6 @@
 <rect x="764" y="150" width="11" height="11" rx="2" fill="#0891B2" class="cl" style="animation:pp .05s 1.425s forwards"/>
 <rect x="778" y="66" width="11" height="11" rx="2" fill="#9CA3AF" class="cl" style="animation:pp .05s 1.300s forwards"/>
 <rect x="778" y="80" width="11" height="11" rx="2" fill="#8B5CF6" class="cl" style="animation:pp .05s 1.325s forwards"/>
-<rect x="778" y="94" width="11" height="11" rx="2" fill="#8B5CF6" class="cl" style="animation:pp .05s 1.350s forwards"/>
+<rect x="778" y="94" width="11" height="11" rx="2" fill="#7C3AED" class="cl" style="animation:pp .05s 1.350s forwards"/>
+<rect x="778" y="108" width="11" height="11" rx="2" fill="#9CA3AF" class="cl" style="animation:pp .05s 1.375s forwards"/>
 </svg>

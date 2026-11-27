@@ -61,7 +61,7 @@
 <rect x="106" y="122" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.200s forwards"/>
 <rect x="106" y="136" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.225s forwards"/>
 <rect x="106" y="150" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.250s forwards"/>
-<rect x="120" y="66" width="11" height="11" rx="2" fill="#7C3AED" class="cl" style="animation:pp .05s 0.125s forwards"/>
+<rect x="120" y="66" width="11" height="11" rx="2" fill="#4B5563" class="cl" style="animation:pp .05s 0.125s forwards"/>
 <rect x="120" y="80" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.150s forwards"/>
 <rect x="120" y="94" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.175s forwards"/>
 <rect x="120" y="108" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.200s forwards"/>
@@ -195,8 +195,8 @@
 <rect x="372" y="136" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.700s forwards"/>
 <rect x="372" y="150" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.725s forwards"/>
 <rect x="386" y="66" width="11" height="11" rx="2" fill="#4B5563" class="cl" style="animation:pp .05s 0.600s forwards"/>
-<rect x="386" y="80" width="11" height="11" rx="2" fill="#7C3AED" class="cl" style="animation:pp .05s 0.625s forwards"/>
-<rect x="386" y="94" width="11" height="11" rx="2" fill="#7C3AED" class="cl" style="animation:pp .05s 0.650s forwards"/>
+<rect x="386" y="80" width="11" height="11" rx="2" fill="#4B5563" class="cl" style="animation:pp .05s 0.625s forwards"/>
+<rect x="386" y="94" width="11" height="11" rx="2" fill="#4B5563" class="cl" style="animation:pp .05s 0.650s forwards"/>
 <rect x="386" y="108" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.675s forwards"/>
 <rect x="386" y="122" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.700s forwards"/>
 <rect x="386" y="136" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 0.725s forwards"/>
@@ -354,10 +354,10 @@
 <rect x="694" y="108" width="11" height="11" rx="2" fill="#7C3AED" class="cl" style="animation:pp .05s 1.225s forwards"/>
 <rect x="694" y="122" width="11" height="11" rx="2" fill="#7C3AED" class="cl" style="animation:pp .05s 1.250s forwards"/>
 <rect x="694" y="136" width="11" height="11" rx="2" fill="#4B5563" class="cl" style="animation:pp .05s 1.275s forwards"/>
-<rect x="694" y="150" width="11" height="11" rx="2" fill="#22D3EE" class="cl" style="animation:pp .05s 1.300s forwards"/>
+<rect x="694" y="150" width="11" height="11" rx="2" fill="#A78BFA" class="cl" style="animation:pp .05s 1.300s forwards"/>
 <rect x="708" y="66" width="11" height="11" rx="2" fill="#4B5563" class="cl" style="animation:pp .05s 1.175s forwards"/>
 <rect x="708" y="80" width="11" height="11" rx="2" fill="#7C3AED" class="cl" style="animation:pp .05s 1.200s forwards"/>
-<rect x="708" y="94" width="11" height="11" rx="2" fill="#A78BFA" class="cl" style="animation:pp .05s 1.225s forwards"/>
+<rect x="708" y="94" width="11" height="11" rx="2" fill="#7C3AED" class="cl" style="animation:pp .05s 1.225s forwards"/>
 <rect x="708" y="108" width="11" height="11" rx="2" fill="#4B5563" class="cl" style="animation:pp .05s 1.250s forwards"/>
 <rect x="708" y="122" width="11" height="11" rx="2" fill="#4B5563" class="cl" style="animation:pp .05s 1.275s forwards"/>
 <rect x="708" y="136" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 1.300s forwards"/>
@@ -395,4 +395,5 @@
 <rect x="778" y="94" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 1.350s forwards"/>
 <rect x="778" y="108" width="11" height="11" rx="2" fill="#161B22" class="cl" style="animation:pp .05s 1.375s forwards"/>
 <rect x="778" y="122" width="11" height="11" rx="2" fill="#4B5563" class="cl" style="animation:pp .05s 1.400s forwards"/>
+<rect x="778" y="136" width="11" height="11" rx="2" fill="#22D3EE" class="cl" style="animation:pp .05s 1.425s forwards"/>
 </svg>
